@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+img{
+    max-width: 100%;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 2rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-logo{
+    max-width: 100px;
+}
+
+.nav-logo img{
+    width: 100%;
+}
+
+.blur{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px rgba(0, 0, 0, 0.5);
+    z-index: -100;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+} 
+
+.project .card{
+    padding: 3rem 2rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.project .card:hover{
+    border: 2px solid #1d4ed8;
+}
+
+.project .card .content{
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+.project .card .foto_project{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style: none;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.project .card .foto_project li{
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+.project .card .foto_project img{
+    max-width: 400px;
+}
+
+.project .card h4{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #1d4ed8;
+}
+
+.project .card h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.project .card p{
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+}
+.project .card p i{
+    color: #1d4ed8;
+    font-size: 1.2rem;
+    margin-right: 0.3rem;
+}
+
+.project .card .skils{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style: none;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.project .card .skils li{
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+.project .card .skils img{
+    max-width: 30px;
+}
