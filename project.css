@@ -141,3 +141,32 @@ nav{
 .project .card .skils img{
     max-width: 30px;
 }
+
+@media screen and( max-width: 400px ){
+    .container .project{
+        padding: 0;
+    }
+    .project{
+        grid-template-columns: repeat(-1, 1fr);
+    }
+
+    .project .card{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .project .card .foto_project img{
+        max-width: 100%;
+    }
+
+    .project .card .skils img{
+        max-width: 20px;
+    }
+
+    .project .card .foto_project li{
+        padding: 0.5rem 0.5rem;
+    }
+
+    .project .card .skils li{
+        padding: 0.5rem 0.5rem;
+    }
+    
+}
