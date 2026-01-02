@@ -49,6 +49,37 @@ nav{
     opacity: 0;
 }
 
+
+.experience-list {
+  margin-top: 10px;
+  padding-left: 18px;
+}
+
+.experience-list li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.experience-item.hidden {
+  display: none;
+}
+
+.see-more-btn {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: #4da6ff;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0;
+}
+
+.see-more-btn:hover {
+  text-decoration: underline;
+}
+
+
+
 @keyframes movedown{
     0%{
         transform: translateY(-30px);
@@ -108,14 +139,24 @@ nav{
     left: 50%;
 }
 
-.container img{
+/* .container img{
     position: absolute;
     width: 50px; 
     border-radius: 50%;
     right: -20px;
     top: 32px;
     z-index: 10;
+} */
+
+.container img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    background: #fff;
+    padding: 8px;
+    border-radius: 50%;
 }
+
 
 .right-container img{
     left: -20px;

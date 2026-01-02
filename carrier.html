@@ -1,62 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrier Journey</title>
-    <link rel="stylesheet" href="carrier.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Journey</title>
+    <link rel="stylesheet" href="carrier.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+  </head>
+  <body>
     <nav>
-        <div class="nav-logo">
-            <a href="index.html">
-                <img src="images/Fachry_1.svg" alt="logo">
-            </a>
-        </div>
+      <div class="nav-logo">
+        <a href="index.html">
+          <img src="images/Fachry_1.svg" alt="Fachry Logo" />
+        </a>
+      </div>
     </nav>
-    <div class="timeline">
-        <h2>Carrier Journey</h2>
-        <span class="blur"></span>
-        <span class="blur"></span>
-        <div class="container left-container">
-            <img src="images/kamir_ajib.png" alt="">
-            <div class="text-box">
-                <h2>PT. Kamir Ajib</h2>
-                <small>March - October 2024</small>
-                <h4>Full-stack Developer intern</h4>
-                <p>
-                    I work as a Full-stack Developer intern at PT. Kamir Ajib and am responsible for developing a website for the company. I work both as UI/UX and the Backend team to ensure that the website has complete design components and API code.
-                </p>
-                <span class="left-container-arrow"></span>
-            </div>
-        </div>
 
-        <div class="container right-container">
-            <img src="images/core_initiative_studio_logo.jpeg" alt="">
-            <div class="text-box">
-                <h2>Core Initiative Studio</h2>
-                <small>January 2024</small>
-                <h4>Front-End Developer intern</h4>
-                <p>
-                    I work as a Front-End Developer intern at Core Initiative and am responsible for developing two pages for an e-commerce website, namely the men's clothing and women's clothing pages. work with the UI/UX team and the Backend team to ensure that the website has complete design components and API code.
-                </p>
-                <span class="right-container-arrow"></span>
-            </div>
-        </div>
+    <section class="timeline">
+      <h2>Career Journey</h2>
+      <span class="blur"></span>
+      <span class="blur"></span>
 
-        <div class="container left-container">
-            <img src="images/kampus_merdeka.jpeg" alt="">
-            <div class="text-box">
-                <h2>Studi Independent - UI/UX Designer (Bisa Ai Academy)</h2>
-                <small>February - Juni 2023</small>
-                <h4>UI/UX Designer</h4>
-                <p>
-                    During a dynamic six-week internship program, I had the privilege of serving as a UI/UX designer, collaborating with a talented group to deliver impactful projects. This immersive experience not only enriched my understanding of user experience and interface design but also fostered essential communication and teamwork skills.
-                </p>
-                <span class="left-container-arrow"></span>
-            </div>
+      <!-- Huawei -->
+      <div class="container left-container">
+        <img src="images/Huawei-Logo.png" alt="Huawei IOH Project" />
+        <div class="text-box">
+          <h2>
+            PT. Huawei Tech Investment Indonesia – IOH Collaboration Project
+          </h2>
+          <small>September 2024 – Present</small>
+          <h4>Full Stack Software Engineer</h4>
+
+          <ul class="experience-list" id="huawei-experience">
+            <li class="experience-item">
+              Led the development and implementation of O&M Digital
+              Transformation solutions using the Huawei OWS Platform, improving
+              operational efficiency across multiple regions.
+            </li>
+            <li class="experience-item">
+              Built custom web applications including Budgeting Systems,
+              Ticketing Platforms, and Digital Logbooks to streamline fault,
+              change, and incident management workflows.
+            </li>
+            <li class="experience-item">
+              Led the Site List IOH Automation Project, automating site claim
+              eligibility validation and reducing manual processing time from
+              two weeks to one day.
+            </li>
+            <li class="experience-item hidden">
+              Designed and optimized RESTful APIs, SFTP integrations, and
+              internal automation pipelines for secure data synchronization.
+            </li>
+            <li class="experience-item hidden">
+              Conducted code reviews, bug fixing, and module enhancements to
+              improve system reliability and performance.
+            </li>
+            <li class="experience-item hidden">
+              Developed a real-time VRF dashboard to monitor alarm statuses and
+              improve operational visibility.
+            </li>
+            <li class="experience-item hidden">
+              Collaborated with cross-functional teams to resolve production
+              issues and support post-deployment activities.
+            </li>
+          </ul>
+
+          <button class="see-more-btn" onclick="toggleExperience()">
+            See more
+          </button>
+
+          <span class="left-container-arrow"></span>
         </div>
-    </div>
-</body>
+      </div>
+
+      <!-- Core Initiative -->
+      <div class="container right-container">
+        <img
+          src="images/core_initiative_studio_logo.jpeg"
+          alt="Core Initiative Studio"
+        />
+        <div class="text-box">
+          <h2>Core Initiative Studio</h2>
+          <small>January 2024</small>
+          <h4>Front-End Developer Intern</h4>
+          <p>
+            Worked as a Front-End Developer Intern, developing key user-facing
+            pages for an e-commerce platform, including men’s and women’s
+            clothing sections. Collaborated with UI/UX designers and backend
+            developers to ensure seamless integration between design components
+            and APIs.
+          </p>
+          <span class="right-container-arrow"></span>
+        </div>
+      </div>
+
+      <!-- Kampus Merdeka -->
+      <div class="container left-container">
+        <img src="images/kampus_merdeka.jpeg" alt="Bisa AI Academy" />
+        <div class="text-box">
+          <h2>Independent Study – UI/UX Designer (Bisa AI Academy)</h2>
+          <small>February – June 2023</small>
+          <h4>UI/UX Designer</h4>
+          <p>
+            Participated in an intensive UI/UX design program, collaborating
+            with a multidisciplinary team to design user-centered digital
+            products. Gained hands-on experience in user research, wireframing,
+            prototyping, and usability testing while strengthening communication
+            and teamwork skills.
+          </p>
+          <span class="left-container-arrow"></span>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function toggleExperience() {
+        const hiddenItems = document.querySelectorAll(
+          "#huawei-experience .hidden"
+        );
+        const button = document.querySelector(".see-more-btn");
+
+        const isHidden = hiddenItems[0].style.display !== "list-item";
+
+        hiddenItems.forEach((item) => {
+          item.style.display = isHidden ? "list-item" : "none";
+        });
+
+        button.textContent = isHidden ? "See less" : "See more";
+      }
+    </script>
+  </body>
 </html>
