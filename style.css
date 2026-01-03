@@ -247,10 +247,21 @@ section .header {
 .project_list .card_project .foto_project li{
     padding: 0.5rem 1rem;
     color: black;
+    flex: 1 1 400px;
 }
 
-.project_list .card_project .foto_project img {
+.project_list .card_project .foto_project img,
+.project_list .card_project .foto_project video,
+.project_list .card_project .foto_project iframe {
+  width: 100%;
   max-width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* khusus iframe agar proporsional */
+.project_list .card_project .video-item iframe {
+  aspect-ratio: 16 / 9;
 }
 
 .project_list .card_project h4 {
