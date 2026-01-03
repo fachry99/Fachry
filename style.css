@@ -230,6 +230,10 @@ section .header {
     transition: all 0.3s ease;
 }
 
+.project_list .card_project:hover{
+    border: 2px solid #1d4ed8;
+}
+
 .project_list .card_project .foto_project {
     display: flex;
     flex-wrap: wrap;
