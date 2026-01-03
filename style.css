@@ -276,6 +276,22 @@ section .header {
     margin-right: 0.3rem;
 }
 
+.project-highlights {
+  padding-left: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.project-highlights li {
+  margin-bottom: 0.8rem;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.project-highlights strong {
+  color: #111827;
+}
+
+
 /* hidden by default */
 .project-more {
   display: none;
@@ -309,7 +325,7 @@ section .header {
 
 
 .project_list .card_project .skils {
-      display: flex;
+    display: flex;
     flex-wrap: wrap;
     position: relative;
     list-style: none;
