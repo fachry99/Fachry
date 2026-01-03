@@ -103,7 +103,7 @@
             <li><img src="images/obd_dashboard.png" /></li>
           </ul>
 
-          <p>
+          <p class="project-summary">
             <strong>OBD (Onboarding Dashboard)</strong> – Monitoring Kendaraan &
             Kesiapan Operasional Saya membangun aplikasi dashboard monitoring
             kendaraan yang menampilkan posisi dan status kendaraan secara
@@ -115,7 +115,52 @@
             divisualisasikan dalam dashboard (termasuk pemetaan lokasi) dan bisa
             difilter berdasarkan nomor kendaraan, supplier, dan tanggal.
           </p>
+
+          <!-- LONG DESCRIPTION (HIDDEN) -->
+          <div class="project-more">
+            <p>
+              <strong>OBD Dashboard</strong> adalah “pusat kontrol kendaraan”
+              yang membantu tim operasional melihat:
+            </p>
+
+            <ul>
+              <li>Status kendaraan terkini (real-time)</li>
+              <li>Riwayat perjalanan / histori lokasi</li>
+              <li>Data identitas kendaraan (metadata)</li>
+            </ul>
+
+            <p><strong>Cara kerjanya (bahasa gampang)</strong></p>
+            <ol>
+              <li>Supplier mengumpulkan data dari GPS tracker.</li>
+              <li>
+                Data dikirim ke API dan disimpan dalam 3 jenis:
+                <ul>
+                  <li><strong>Latest</strong> – data status terbaru</li>
+                  <li><strong>Log</strong> – histori lokasi per menit</li>
+                  <li><strong>Vehicle</strong> – info kendaraan</li>
+                </ul>
+              </li>
+              <li>
+                Dashboard menampilkan real-time & historical tracking berbasis
+                peta.
+              </li>
+            </ol>
+
+            <p><strong>Fitur yang relevan untuk bisnis</strong></p>
+            <ul>
+              <li>Real-time monitoring kendaraan</li>
+              <li>Histori perjalanan</li>
+              <li>Peta interaktif (latitude / longitude)</li>
+              <li>Filter cepat (kendaraan, supplier, tanggal)</li>
+            </ul>
+          </div>
+
+          <!-- BUTTON -->
+          <button class="btn-toggle" onclick="toggleProject(this)">
+            See more
+          </button>
         </div>
+
         <!-- Huawei Project -->
         <div class="card_project">
           <h4>🖥️ Huawei Project</h4>

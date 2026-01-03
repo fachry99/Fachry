@@ -25,3 +25,18 @@ link3.addEventListener('click', () => {
     //scroll to the third element that matches the selector
     scrollToElement('.header',2);
 });
+
+  function toggleProject(button) {
+    const card = button.closest(".card_project");
+    const moreContent = card.querySelector(".project-more");
+
+    if (moreContent.style.display === "block") {
+      moreContent.style.display = "none";
+      button.textContent = "See more";
+    } else {
+      moreContent.style.display = "block";
+      button.textContent = "See less";
+    }
+  }
+
+

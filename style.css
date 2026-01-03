@@ -276,6 +276,38 @@ section .header {
     margin-right: 0.3rem;
 }
 
+/* hidden by default */
+.project-more {
+  display: none;
+  margin-top: 1rem;
+}
+
+.project-more ul,
+.project-more ol {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.project-more li {
+  margin-bottom: 0.4rem;
+  color: #6b7280;
+}
+
+.btn-toggle {
+  margin-top: 1rem;
+  background: none;
+  border: none;
+  color: #1d4ed8;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+}
+
+.btn-toggle:hover {
+  text-decoration: underline;
+}
+
+
 .project_list .card_project .skils {
       display: flex;
     flex-wrap: wrap;
