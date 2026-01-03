@@ -84,6 +84,12 @@ nav {
   margin-top: 30px;
 }
 
+.container_project {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+
 .blur {
   position: absolute;
   box-shadow: 0 0 1000px 50px rgba(0, 0, 0, 0.5);
@@ -162,6 +168,13 @@ section .header {
   margin-top: 4rem;
 }
 
+.project_list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
 .project .card {
   padding: 2rem;
   background-color: #fff;
@@ -204,6 +217,80 @@ section .header {
 .project .card a:hover {
   color: #1d4ed8;
 }
+
+/* khusus project detail / portfolio */
+
+.project_list .card_project {
+    padding: 3rem 2rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.project_list .card_project .foto_project {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style: none;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.project_list .card_project .foto_project li{
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+.project_list .card_project .foto_project img {
+  max-width: 400px;
+}
+
+.project_list .card_project h4 {
+   font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #1d4ed8;
+}
+
+.project_list .card_project h3 {
+  font-size: 1.2rem;
+  border-bottom: 2px solid #f4f4f4;
+  padding-bottom: 1rem;
+}
+
+.project_list .card_project p{
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+}
+.project_list .card_project p i{
+    color: #1d4ed8;
+    font-size: 1.2rem;
+    margin-right: 0.3rem;
+}
+
+.project_list .card_project .skils {
+      display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style: none;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.project_list .card_project .skils li{
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+.project_list .card_project .skils img{
+    max-width: 30px;
+}
+
 
 .services {
   display: grid;
